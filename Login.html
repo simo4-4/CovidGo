@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+    <head>
+        <title > CovidGo </title>
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-auth.js"></script>  
+        <script src="login.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+        
+    </head>
+
+<body>
+
+    <h1>CovidGo</h1>
+
+
+    <div id="formContainer">
+        <div id="header"></div>
+
+        <div class="input">
+        <input type="email" placeholder="Email" id="email" />
+        </div>
+    
+        <div class="input">
+        <input type="password" placeholder="Password" id="password"/>
+        </div>
+
+        <div id="loginbuttons">
+        <button onclick="signUp()" id="signUp"> Sign Up</button>
+        <button onclick="signIn()" id="signIn"> Sign In</button>
+        <button onclick="signOut()" id="signOut"> Sign Out</button>
+        </div>
+
+    </div>
+
+    
+
+
+</body>
+</html>
