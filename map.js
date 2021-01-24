@@ -2,7 +2,7 @@
   // Your web app's Firebase configuration
   // For Firebase JS SDK v7.20.0 and later, measurementId is optional
   var firebaseConfig = {
-    apiKey: "AIzaSyCzABbVlIBj6r1blxCjkFHW7DCIwqhfSNg",
+    apiKey: "ENTER API key",
     authDomain: "covidgo-57265.firebaseapp.com",
     projectId: "covidgo-57265",
     storageBucket: "covidgo-57265.appspot.com",
