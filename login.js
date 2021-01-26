@@ -2,7 +2,7 @@
   // Your web app's Firebase configuration
   // For Firebase JS SDK v7.20.0 and later, measurementId is optional
   var firebaseConfig = {
-    apiKey: "ENTER API KEY",
+    apiKey: "AIzaSyCzABbVlIBj6r1blxCjkFHW7DCIwqhfSNg",
     authDomain: "covidgo-57265.firebaseapp.com",
     projectId: "covidgo-57265",
     storageBucket: "covidgo-57265.appspot.com",
@@ -59,9 +59,19 @@
 
           
           alert("Active User: " + email + " " + window.location);
+
+          if (confirm('Log in or stay logged in? Press OK to LOGIN and CANCEL to LOGOUT')) {
+            // Save it!
+            window.location = "map.html";
+            console.log('User logged in');
+          } else {
+            // Do nothing!
+            signOut();
+            console.log('User logged out');
+          }
           
 
-          window.location = "map.html";
+          
           //firebase.Unsubscribe;
           //is signed in
         }
