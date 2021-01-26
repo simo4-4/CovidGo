@@ -7,7 +7,7 @@
     projectId: "covidgo-57265",
     storageBucket: "covidgo-57265.appspot.com",
     messagingSenderId: "183183543596",
-    appId: "1:183183543596:web:067c1498d283927a797089",
+    appId: "appId",
     measurementId: "G-P80GWGF52S"
   };
   // Initialize Firebase
